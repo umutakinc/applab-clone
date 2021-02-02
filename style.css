@@ -1,0 +1,85 @@
+/* boşlukları sıfırladım */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    font-family: "Poppins";
+}
+
+body{
+    margin-top: 20px;
+}
+
+/* p taglerinin bütün satırı kaplamaması için */
+p{
+    display: inline;
+}
+
+/* logo yazısı boyutu ve stili */
+.logo p{
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.sari{
+    color: #fcae61;
+}
+
+.lacivert{
+    color: #242f51;
+}
+
+/* liste stil kaldırıldı */
+.menu{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* top menü ve buton hizalandı */
+.menu-buton{
+    align-items: center;
+    display: flex;
+}
+
+/* liste elemanları arası boşluk verildi */
+.menu li{
+    display: inline;
+    margin: 0px 15px;
+}
+
+.menu li a:hover{
+    color: #fcae61;
+}
+
+/* linklerin stil özelliği kaldırıldı. */
+.menu li a {
+    text-decoration: none;
+}
+
+.tryForFree button{
+    height: 60px;
+    width: 170px;
+    background-color: #2500f9;
+    color: white;
+}
+.tryForFree button{
+    font-size: 14pt;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.tryForFree button{
+    border: solid;
+    border-style: hidden;
+    border-radius: 30px;
+    pointer-events: none;
+}
+
